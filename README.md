@@ -1,1 +1,3 @@
 # Math-magician
+
+Setup environment
