@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100;1,600&display=swap');
+
 body {
-  background-color: white;
+  background-color: #d1d1d6;
+  margin: 0;
+  padding: 0;
 }
