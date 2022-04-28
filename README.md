@@ -12,7 +12,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 ## Live
 
-- [Netlify](https://microverse-math-magician.netlify.app/calculator)
+- [Netlify](https://microverse-math-magician.netlify.app/)
 
 ## Getting Started
 
