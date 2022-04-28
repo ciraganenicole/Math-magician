@@ -10,6 +10,10 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 - REACT
 - CSS
 
+## Live
+
+- [Netlify](https://microverse-math-magician.netlify.app/calculator)
+
 ## Getting Started
 
 
