@@ -8,7 +8,7 @@ describe('Navigation page', () => {
     render(
       <Router>
         <Routes>
-        <Route path="/" index element={<Home />} />
+          <Route path="/" index element={<Home />} />
         </Routes>
       </Router>,
     );
@@ -19,10 +19,10 @@ describe('Navigation page', () => {
   it('Number of links', () => {
     render(
       <Router>
-      <Routes>
-      <Route path="/" index element={<Home />} />
-      </Routes>
-    </Router>,
+        <Routes>
+          <Route path="/" index element={<Home />} />
+        </Routes>
+      </Router>,
     );
     const linkElement = screen.getAllByRole('link');
     expect(linkElement.length).toBe(3);
