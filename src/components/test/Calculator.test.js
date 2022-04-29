@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Calculator from '../Calculator';
+import Calculator from '../Calculator.jsx';
 
 describe('Calculator component', () => {
   it('Check calculator container', () => {
