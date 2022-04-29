@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Calculator from '../Calculator.jsx';
+import Calculator from '../calculator';
 
 describe('Calculator component', () => {
   it('Check calculator container', () => {
