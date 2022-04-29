@@ -1,6 +1,7 @@
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.css';
 
 const Header = () => {
@@ -26,7 +27,7 @@ const Header = () => {
       <span className='span'>Math magician</span>
       <ul className='list'>
         {data.map(({ id, name, url }) => (
-          <NavLink key={id} to={url}>
+            <NavLink key={id} to={url}>
             <li>{name}</li>
           </NavLink>
         ))}
